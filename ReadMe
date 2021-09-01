@@ -1,1 +1,24 @@
 This is a very simple project to build a restful webservice
+All we are doing is using springboot framework and creating the project
+step1# Go to spring initializer https://start.spring.io/ on any web browser
+step2#
+You should see Project: Maven Project already selected, if not select it, by clicking on the radio button
+You should see Languages: Java already selected, if not select it, by clicking on the radio button
+select latest Spring Boot version , as of Sep 2021 '2.5.4' // don't select SNAPSHOT or M2 OR lower versions
+
+Project Metadata -  Group: com.yaklur, artifact:helloworld , everything else keep as is
+Packaging: Jar
+Java : 11
+
+ADD Dependencies : click on button "ADD DEPENDENCIES" on right panel  type "Spring Web" and add dependency from drop down
+
+Step3# click on "GENERATE" button below and save File. Your project is generated and saved in your local machine as a zip file.
+Check downloads folder or search for helloworld.zip. unzip the file to a folder.
+
+Step4# Open intelliJ IDE or any IDE and select folder 'helloworld' your project is open
+
+step5# copy complete code from github repo @ https://github.com/jyaklur/helloworld
+
+step6# build and run
+
+step7# from any browser go to http://localhost:8088/helloworld and you will see <HELLO WORLD!>
